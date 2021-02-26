@@ -1,11 +1,11 @@
 @font-face{
     font-family: 'Reey';
     src:url(../font/Reey-Regular.otf);
+}
 
-}
-}
 html{
     font-family: 'Shippori Mincho B1', serif;
+    color: blue;
     font-size: large;
 }
 header{
