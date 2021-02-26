@@ -29,7 +29,34 @@ h1{
 .articleimage{
     width: 100%;
 }
+.loaded #loaderwrapper{
+    opacity: 0;
+    transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3 ease-out;
+}
+.loaded #loader{
+    visibility: hidden;
+}
 /*IDs*/
+#loaderwrapper{
+    position: fixed;
+    width:100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background: rgb(229, 232, 229);
+    margin: 0 auto;
+}
+#loader{
+    font-family: Helvetica, sans-serif;
+    text-transform: uppercase;
+    position: fixed;
+    left: 40vw;
+    top: 40vh;
+    font-size: xx-large;
+    font-weight: 900;
+}
 #imageleft{
     position: fixed;
     background-image: url(../img/23.jpg);
