@@ -2,6 +2,16 @@
     font-family: 'Reey';
     src:url(../font/Reey-Regular.otf);
 }
+@media only screen and (max-width: 600px){
+    #right{
+        width: 70vw !important;  
+    }
+    p{
+        z-index: 100;
+        position: relative;
+        font-weight: 500;
+    }
+}
 
 html{
     font-family: 'Shippori Mincho B1', serif;
