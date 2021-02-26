@@ -1,0 +1,67 @@
+@font-face{
+    font-family: 'Reey';
+    src:url(../font/Reey-Regular.otf);
+
+}
+html{
+    font-family: 'Shippori Mincho B1', serif;
+    font-size: large;
+}
+header{
+    background: none;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+body{
+    margin: 0 auto;
+    overscroll-behavior-y: none;
+
+}
+h1{
+    padding-top: 20px;
+    font-family: Reey;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+/*Classes*/
+.articleimage{
+    width: 100%;
+}
+/*IDs*/
+#imageleft{
+    position: fixed;
+    background-image: url(../img/23.jpg);
+    height: 100vh;
+    width: 100vw;
+    z-index: -100;
+    background-size: cover;
+}
+#right{
+    background: rgb(229, 232, 229);
+    z-index: 100;
+    width: 50vw;
+    float: right;
+    height: auto;
+}
+#contentwrapper{
+    margin-top: 25vh;
+    justify-content: center;
+    margin: 25vh auto;
+    width: 75%;
+}
+
+/*images*/
+#image1{
+    width: 15vw;
+    position: absolute;
+    left: 40vw;
+    top: 45vh;
+}
+#image2{
+    position: absolute;
+    width: 15vw;
+    right: 0vw;
+    left: 40vw;
+}
