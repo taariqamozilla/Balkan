@@ -3,14 +3,6 @@
     src:url(../font/Reey-Regular.otf);
 
 }
-@media only screen and (max-width: 500px){
-    #image1{
-        left: 15vw;
-    }
-    #image2{
-        left: 15vw;
-    }
-
 }
 html{
     font-family: 'Shippori Mincho B1', serif;
