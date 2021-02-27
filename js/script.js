@@ -1,4 +1,4 @@
-function fadeloader() {
+window.onload = function fadeloader() {
     document.getElementById('body').classList.add("loaded");
 }
 
